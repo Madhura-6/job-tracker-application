@@ -48,6 +48,7 @@ cd job-tracker-application
 ### 2. Setup Frontend
 cd frontend
 npm install
+npm start
 
 3. Setup Backend
 Open the Spring Boot project in an IDE like IntelliJ or Eclipse.
