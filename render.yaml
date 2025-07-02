@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: jobtracker-backend
+    env: java
+    plan: free
+    repo: https://github.com/Madhura-6/job-tracker-application
+    branch: main
+    rootDir: jobtracker
+    buildCommand: "./mvnw clean install"
+    startCommand: "java -jar target/*.jar"
+    autoDeploy: true
